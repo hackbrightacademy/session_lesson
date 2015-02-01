@@ -31,9 +31,8 @@ Add on the line immediately after the `<title>` tag on line 3,
 
 Bam. It's way better. Welcome to [Bootstrap](http://getbootstrap.com/getting-started/#template).
 
-In short, bootstrap is a series of CSS design decisions made for you. It's pretty great, because it takes away a lot of the 'hideous' factor. The only thing you need to do is organize your divs according to how they want you to, and give them the right class names. This is fine, because all things considered, bootstrap has some pretty good names and pretty good nesting conventions. Play by their rules, and everything looks amazing.
+In short, Bootstrap is a series of CSS design decisions made for you. It's pretty great, because it takes away a lot of the 'hideous' factor. The only thing you need to do is organize your divs according to how they want you to, and give them the right class names. This is fine, because all things considered, Bootstrap has some pretty good names and pretty good nesting conventions. Play by their rules, and everything looks amazing, works well in different browers, and can easily be made responsive.
 
-However, since _everyone_ is using bootstrap, every website ever looks amazing in exactly the same way. They're like the Stepford Wives of web programming.
 
 ## Static
 So we used kind of an unusual url for our bootstrap file. It starts with '/static'. This folder is super spesh. Normally, our urls aren't really files, they map to functions instead. This becomes problematic when we want to actually point to a real file. When we _do_ point to real files, they're usually files that don't change, like images or css. They're static files (as opposed to our templates, which are mad-libbed on the fly, and thus dynamic). We have a place to put these files, the eponymously-named static folder. It's here you'll put your files which remain the same throughout eternity, slowly gathering dust as the ages pass.
